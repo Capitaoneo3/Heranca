@@ -17,8 +17,10 @@ public class MainActivity extends AppCompatActivity {
 
         Cachorro cachorro= new Cachorro();
 
-        passaro.correr();
-        cachorro.correr();
+       // passaro.correr();
+        //cachorro.correr();
+        passaro.setCor("rosa");
+        System.out.println(passaro.getCor());
     }
 
 

@@ -9,25 +9,25 @@ public class Animal {
         this.cor = cor;
     }
 
-    public Double getTamanho() {
+    public double getTamanho() {
         return tamanho;
     }
 
-    public void setTamanho(Double tamanho) {
+    public void setTamanho(double tamanho) {
         this.tamanho = tamanho;
     }
 
-    public Double getPeso() {
+    public double getPeso() {
         return peso;
     }
 
-    public void setPeso(Double peso) {
+    public void setPeso(double peso) {
         this.peso = peso;
     }
 
-    String cor;
-    Double tamanho;
-    Double peso;
+    private String cor;
+    private double tamanho;
+    private double peso;
 
     void correr(){
         System.out.println("correndo como um ");
