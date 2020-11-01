@@ -1,4 +1,4 @@
-package com.example.heranca;
+package com.example.heranca.classes;
 
 public class Cachorro extends Animal {
     void latir(){
@@ -6,7 +6,7 @@ public class Cachorro extends Animal {
     }
 
     @Override
-    void correr() {
+    public void correr() {
         super.correr();
         System.out.println("cão");
     }

@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.heranca.classes.Cachorro;
+import com.example.heranca.classes.Passaro;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -20,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         passaro.correr();
         cachorro.correr();
     }
+
 
 
 
